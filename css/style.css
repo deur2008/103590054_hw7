@@ -1,0 +1,101 @@
+.container-fluid{
+	margin-top: 10%;
+}
+button{
+	float: left;
+	display: inline-block;
+	margin: auto;
+}
+
+#btnSignIn{
+	margin-right: 10px;
+}
+#btnSignUp{
+	background-color:  	#4de6e6;
+	color: black;
+}
+
+form .mdl-textfield{
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+button img{
+	height: 100%;
+	width: 80px;
+}
+.mdl-card__title{
+	display: inline-block;
+}
+.mdl-card__title h2{
+	float: left;
+	display: inline-block;
+	margin-top:6px;
+}
+.mdl-card__title button{
+	float: right;
+	display: inline-block;
+}
+.user{
+	height: 561px;
+}
+form .photo{
+	padding-top : 20px; 
+}
+.photo h4{
+	float: left;
+	display: inline-block;
+}
+form .description {
+	padding-top : 20px; 
+}
+form .description label{
+	position: static;
+	margin: 0;
+}
+.description textarea{
+	padding: 0;
+}
+
+form .mdl-button{
+	margin-top: 20px;
+	float: left;
+	display: inline-block;
+}
+
+.chatroom {
+	height: 100%;
+}
+.chatroom h4{
+	float: left;
+	display: block;
+	font-weight:bold;
+	font-size: 22px;
+}
+.chatroom footer{
+	position: absolute;
+	bottom: 16px;
+}
+.demo-avatar{
+	margin: auto;
+	border:1px solid #51A8DD;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+#user-pic{
+	width: 100%;
+}
+#user-info li{
+	list-style-type: none;
+}
+.example-chat-messages {
+	padding: 0;
+}
+.example-chat-messages li{
+	list-style-type: none;
+}
+#example-messages{
+	height: 70%;
+	overflow-x: hidden;
+	margin: 0;
+}
